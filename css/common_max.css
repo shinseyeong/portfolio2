@@ -1,0 +1,65 @@
+
+@charset "utf-8";
+
+@media(max-width:990px){
+        #wrap {width:100%; height:auto; margin:0 auto;}
+        header {width:100%; height:83px;  position:absolute; top:0; left:0; z-index:3; background-color:#fff; padding:1% 0 0 0;}
+ 
+
+        .small > #logo {width:120px; height:60px; background-color:#fff}
+        .small > #logo > a > img{width:100%; height:100%; opacity:0.7; }
+
+        /*로고랑 햄버거 목록 부분*/
+
+        #top-container > .small{width:100%; height:100%; display:flex; display:flex; justify-content:space-between; align-items:center;}
+        #top-container > .small > .burger {width:60px; height:60px; background-color:#fff; cursor:pointer; padding:1% 0 0 0;}
+        #top-container > .small > .burger > img {width:60px; height:60px; float:left;}
+       
+
+        .burger {display:block;}
+        #top-container > nav {display:none;}
+
+        nav {width:100%; height:auto;}
+        nav ul {width:100%; height:422px;  display:flex;  flex-direction:column; line-height:30px; background-color:#fff; opacity:1; background-color:#fff; }
+        nav li {width:100%; height:44px; font-size:16px; margin:10px 0 0 15px; font-family:"Roboto", arial, sans-serif;  display:block; color:green; font-weight:bold;}
+        nav > ul > li > a {color: #6c757d; font-weight:bold; line-height:40px;}
+        nav > ul > li > a:hover {  color:#fff; background-color:green; display:block; width: 100%;  height:44px;} 
+        .nav-btn {border:2px solid #6c757d; color:#6c757d; font-weight:bold; width:123px; height:44px;  padding: 5px 0 5px 15px; margin:15px 0 0 10px; border-radius:7px; }
+        .nav-btn:hover {background-color:green; color:#fff; border:0; padding:7px 0 3px 15px;}
+
+        /* 푸터 시작 */
+       #footer-section {width:100%; height:auto; background-color:#eee; display:flex; flex-direction:column; align-items:center;}
+
+        /*푸터 네비부분*/
+        #footer-section > .container {width:100%; height:auto; padding:50px 0 0 0; }
+        #footer-section > .container > .row {width:90%; height:auto;  display:flex;  display:flex; flex-flow:column wrap;} 
+        #footer-section > .container > .row > .footer-row {width:100%; height:auto;  margin:1%;  }
+        #footer-section > .container > .row > .footer-row > ul {width:100%; height:145px; display:flex; flex-flow:column wrap; justify-content:center; align-items:center;}
+        #footer-section > .container > .row > .footer-row > ul > li {line-height:28px; }
+        #footer-section > .container > .row > .footer-row > ul > li > a {color:#666; }
+
+        /*푸터 장소, 전화번호 등 소개부분 */
+        #footer-section > .container > .row > .footer-row > .box {width:100%; height:auto;  display:flex; flex-flow:column; align-items:center;}  
+
+        #footer-section > .container > .row > .footer-row > .box > .top {width:100%; height:28px;  display:flex; justify-content:center;margin:2%; }
+        #footer-section > .container > .row > .footer-row > .box > .top >.imgbox {width:22px; height:22px; border-radius:5px; overflow:hidden;margin:0 10px 0 0; }
+        #footer-section > .container > .row > .footer-row > .box > .top >.imgbox > img {width:100%; height:100%; }
+        #footer-section > .container > .row > .footer-row > .box > .top {color:#666; font-weight:bold;}
+        #footer-section > .container > .row > .footer-row > .box > .middle {width:20%; height:auto; color:#666; margin:1%; display:flex; justify-content:center; }
+
+        /*푸터 이메일 쓰는 부분*/
+        #footer-section > .container > .row > .footer-row > p {color:#666; margin:0 0 2% 0;  display:flex; justify-content:center;}
+        #footer-section > .container > .row > .footer-row > form > .form {width:100%; height:50px; display:flex; justify-content:center;}
+        #footer-section > .container > .row > .footer-row > form > .form > input {width:30%; height:50px; border-radius:5px; border:1px solid #666;}
+        #footer-section > .container > .row > .footer-row > form > .form > .btn {width:48px; height:46px; border:none; }
+        #footer-section > .container > .row > .footer-row > form > .form > .btn > img {width:100%; height:100%; opacity:0.3; border:none;}
+
+        #footer-section > .bottom {width:100%; height:auto; display:flex; flex-flow:column wrap; align-items:center; }
+        #footer-section > .bottom > .text {width:90%; height:50px; display:flex; justify-content:center; color:#666; padding:3% 0 0 0;}
+
+        #footer-section > .bottom > .photo {width:100%; height:32px; display:flex; justify-content:center;  opacity:0.5;}
+        #footer-section > .bottom > .photo > a {width:3%; height:100%; margin:0 30px 0 0; }
+        #footer-section > .bottom > .photo > a > img {width:28px; height:28px; }
+        #footer-section > .bottom > .photo > .small {width:30px; height:32px;}
+
+}

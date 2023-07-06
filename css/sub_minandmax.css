@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+@media(min-width:800px) and (max-width:1199px){
+  #wrap {width:100%; height:auto;  margin:0 auto;}
+  #sub{width:100%; height:auto;  display:flex; flex-direction:column; align-items:center; margin:60px 0 0 0;}
+  #sub-start {width:100%; height:auto; background-color:pink; display:flex; justify-content:center; align-items:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) ,url("https://yaimg.yanolja.com/v5/2019/07/11/18/5d26fb2ee79a82.66825544.jpg"); background-size:cover; background-position:center;  }
+  #sub-start > .text {width:100%; height:360px; display:flex; flex-flow:column wrap; align-items:center; justify-content:center;}
+  #sub-start > .text > h1 {font-size:3em; color:#fff;}
+  #sub-start > .text > p {color:#ccc; font-size:1.2em; letter-spacing:0.5px;}
+
+  /*서브메인 시작*/
+
+  #main {width:100%; height:auto; display:flex; flex-direction:column;  justify-content:space-between;}
+
+  /*서브메인- 왼쪽부분*/
+  #main > #left {width:100%; height:auto; display:flex; flex-direction:column; align-items:center;}
+
+  /* 서브메인-왼쪽부분-브랜드*/
+  #main > #left > #brand {width:90%; height:auto;  margin:8% 0 8% 0; border:1px solid #ddd;}
+  #main > #left > #brand > .imgbox {width:100%; height:480px; }
+  #main > #left > #brand > .imgbox > a > img {width:100%; height:100%;}
+  
+  #main > #left > #brand > .text {width:100%; height:auto;  padding:6% 8%;}
+  #main > #left > #brand > .text > span {font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px; }
+  #main > #left > #brand > .text > h3 {margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #main > #left > #brand > .text > h3 a {color:#666;}
+  #main > #left > #brand > .text > h3 a:hover{color:tomato;}
+  #main > #left > #brand > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+  
+  #main > #left > #brand > .like {width:100%; height:61px; }
+  #main > #left > #brand > .like > ul {width:100%; height:60px;  display:flex; cursor:pointer;}
+  #main > #left > #brand > .like > ul > li {width:33.32%; height:60px;  display:flex; justify-content:center; align-items:center; }
+
+  #brand> .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd;  }
+  #brand> .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #brand> .like > ul > .li-1 a{color:#a0a0a0a0;transition:all 0.5s}
+  
+
+  #brand > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd; }
+  #brand> .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #brand > .like > ul > .li-2 a{color:#a0a0a0a0;transition:all 0.5s}
+ 
+
+  #brand > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #brand> .like > ul > .li-3 > a > img {width:14px; height:14px;opacity:0.2;}
+  #brand > .like > ul > .li-3 a{color:#a0a0a0a0; transition:all 0.5s}
+  
+
+
+  /*서브메인 왼쪽부분-디자인*/
+  #design {width:90%; height:auto;  margin:0 0 8% 0; border:1px solid #ddd;}
+  #design > .imgbox {width:100%; height:480px; }
+  #design > .imgbox > a > img {width:100%; height:100%;}
+  
+  #design > .text {width:100%; height:auto; padding:6% 8%;}
+  #design > .text > span{font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px;  }
+  #design > .text > h3 {  margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #design > .text > h3 a{color:#666; }
+  #design > .text > h3 a:hover{color:tomato;}
+  #design > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+  
+  #design > .like {width:100%; height:61px; }
+  #design> .like > ul {width:100%; height:60px;  display:flex; }
+  #design > .like > ul > li {width:33.32%; height:60px;   display:flex; justify-content:center; align-items:center;}
+
+  #design> .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #design> .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #design > .like > ul > .li-1 a{color:#a0a0a0a0;}
+
+  #design > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #design> .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #design > .like > ul > .li-2 a{color:#a0a0a0a0;}
+
+  #design > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #design> .like > ul > .li-3 > a > img {width:14px; height:14px; opacity:0.2;}
+  #design > .like > ul > .li-3 a{color:#a0a0a0a0;}
+
+  /*서브메인왼쪽-비디오부분*/
+  #feature {width:90%; height:auto; border:1px solid #ddd; margin:0 0 8% 0;}
+  #feature > .videobox {width:100%; height:auto; }
+  #feature > .videobox > video {width:100%; height:100%; }
+  
+  #feature > .text {width:100%; height:auto;   padding:6% 8%;}
+  #feature > .text > span{font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px;  }
+  #feature > .text > h3 { margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #feature > .text > h3 a{color:#666; }
+  #feature > .text > h3 a:hover{color:tomato;}
+  #feature > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+  
+  #feature> .like > ul {width:100%; height:60px;  display:flex;}
+  #feature > .like > ul > li {width:33.32%; height:60px;  display:flex; justify-content:center; align-items:center;}
+
+  #feature > .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #feature> .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature > .like > ul > .li-1 a{color:#a0a0a0a0;}
+
+  #feature > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #feature> .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature > .like > ul > .li-2 a{color:#a0a0a0a0;}
+
+  #feature > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #feature> .like > ul > .li-3 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature > .like > ul > .li-3 a{color:#a0a0a0a0;}
+
+  /*서브메인왼쪽-비디오부분2*/
+  #feature2 {width:90%; height:auto; border:1px solid #ddd; margin:0 0 8% 0;}
+  #feature2 > .videobox {width:100%; height:480px; }
+  #feature2 > .videobox > video {width:100%; height:100%; object-fit: cover;}
+
+  #feature2 > .text {width:100%; height:auto;   padding:6% 8%;}
+  #feature2 > .text > span{font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px;  }
+  #feature2 > .text > h3 {margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #feature2 > .text > h3 a{color:#666; }
+  #feature2 > .text > h3 a:hover{color:tomato;}
+  #feature2 > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+
+  #feature2> .like > ul {width:100%; height:60px; display:flex; }
+  #feature2 > .like > ul > li {width:33.32%; height:60px;  display:flex; justify-content:center; align-items:center;}
+
+  #feature2 > .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd; }
+  #feature2 > .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature2 > .like > ul > .li-1 a{color:#a0a0a0a0;}
+
+  #feature2 > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #feature2 > .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature2 > .like > ul > .li-2 a{color:#a0a0a0a0;}
+
+  #feature2 > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #feature2 > .like > ul > .li-3 > a > img {width:14px; height:14px; opacity:0.2;}
+  #feature2 > .like > ul > .li-3 a{color:#a0a0a0a0;}
+  
+  /*왼쪽부분-갤러리(사진모음)*/
+  #gallery {width:90%; height:auto;  border:1px solid #ddd; margin:0 0 8% 0;}
+  #gallery > .imgbox {width:100%; height:481px; display:flex; flex-flow:row wrap;}
+  #gallery > .imgbox > .imgbox_img {width:33.32%; height:50%; background-color:beige;}
+  #gallery > .imgbox > .imgbox_img:hover {opacity:0.3;}
+  #gallery > .imgbox > .imgbox_img > img {width:100%; height:100%;}
+
+  #gallery > .text {width:100%; height:auto;   padding:6% 8%;}
+  #gallery  > .text > span{font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px;  }
+  #gallery  > .text > h3 { margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #gallery  > .text > h3 a{color:#666; }
+  #gallery > .text > h3 a:hover{color:tomato;}
+  #gallery  > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+
+  #gallery> .like > ul {width:100%; height:60px;  display:flex;}
+  #gallery > .like > ul > li {width:33.32%; height:60px;   display:flex; justify-content:center; align-items:center;}
+
+  #gallery > .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #gallery > .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #gallery> .like > ul > .li-1 a{color:#a0a0a0a0;}
+
+  #gallery > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #gallery > .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #gallery > .like > ul > .li-2 a{color:#a0a0a0a0;}
+
+  #gallery > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #gallery > .like > ul > .li-3 > a > img {width:14px; height:14px; opacity:0.2;}
+  #gallery > .like > ul > .li-3 a{color:#a0a0a0a0;}
+
+  /*왼쪽부분-인용문*/
+  #quote {width:90%; height:auto; border:1px solid #ddd; margin:0 0 8% 0; }
+
+  #quote > .banner {width:100%; height:auto; background-color:green; padding:6% 8%;} 
+  #quote > .banner > h1 {color:#fff; font-weight:200; line-height:180%; letter-spacing:0.6px; font-size:1.7em;}
+  #quote > .banner > h1 > span {color:gold; font-size:1.8em; font-weight:400;}
+
+  #quote  > .text {width:100%; height:auto;   padding:6% 8%;}
+  #quote   > .text > span{font-size:0.9em; font-weight:400; color:#a0a0a0; letter-spacing:0.5px;  }
+  #quote   > .text > h3 { margin:1% 0 1% 0; font-family: "Noto Sans KR"; font-size:1.6em;}
+  #quote   > .text > h3 a{color:#666; }
+  #quote   > .text > h3 a:hover{color:tomato;}
+  #quote   > .text > p {font-size:1.0em; font-weight:200; color:#333; line-height:180%;}
+
+  #quote  > .like > ul {width:100%; height:60px;  display:flex;}
+  #quote  > .like > ul > li {width:33.32%; height:60px; display:flex; justify-content:center; align-items:center;}
+
+  #quote  > .like > ul > .li-1  {border-top:1px solid #ddd; border-right:1px solid #ddd;}
+  #quote > .like > ul > .li-1 > a > img {width:14px; height:14px; opacity:0.2;}
+  #quote  > .like > ul > .li-1 a{color:#a0a0a0a0;}
+
+  #quote  > .like > ul > .li-2 {border-top:1px solid #ddd; border-right:1px solid #ddd; }
+  #quote > .like > ul > .li-2 > a > img {width:14px; height:14px; opacity:0.2;}
+  #quote  > .like > ul > .li-2 a{color:#a0a0a0a0;}
+
+  #quote  > .like > ul > .li-3 {border-top:1px solid #ddd}
+  #quote > .like > ul > .li-3 > a > img {width:14px; height:14px; opacity:0.2;}
+  #quote  > .like > ul > .li-3 a{color:#a0a0a0a0;}
+
+  /*페이지-창 넘기는 부분*/
+  #page {width:100%; height:47px;  display:flex; justify-content:center; align-items:center; font-size:0.8em; color:#a0a0a0 }
+  #page > ul {width:31%; height:45px; box-sizing:border-box; display:flex; font-weight:300; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+  #page > ul > li {text-align:center;width:100%; height:100%; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding:0 0 10% 0;}
+  #page > ul > .arrow {width:29%; padding:4% 0 0 6%;  display:flex;}
+  #page > ul > .arrow1 {width:29%; padding:4% 0 0 6%;  display:flex;}
+  #page > ul > .arrow1 > img {width:12px; height:20px; opacity:0.3;}
+  #page > ul > .arrow > img {width:12px; height:20px; opacity:0.3;}
+  #page > ul > .number {width:14%; height:100%; padding:4%; border-right:1px solid #ddd;}
+  #page > ul > .number1 {width:14%;height:100%; padding:4%; border-right:1px solid #ddd;border-left:1px solid #ddd;}
+ 
+
+
+
+
+
+  /*서브메인-오른쪽부분*/
+  #main > #right {width:90%; height:auto;  margin:8% 0; display:flex; flex-flow:column wrap; align-items:center; justify-content:center; }
+  
+
+  /*서브메인 오른쪽부분- 검색창*/
+  #main > #right > #search {width:90%; height:35px; display:flex; justify-content:center;}
+  #right > #search > input {width:80%; height:100%; border-right:0; font-size:1.0em; border:1px solid #666;}
+  #right > #search > button {width:10%; height:100%; cursor:pointer; border:0;}
+  #right > #search > button > img {width:100%; height:100%;}
+
+  /*서브메인 오른쪽부분-자기소개*/
+  #right > #about {width:90%; height:auto; padding:5% 0 0 0;}
+  #right > #about > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #right > #about > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:30%;  font-weight:bold;}
+  #right > #about > .smalltitle > hr {width:70%; border: 2px solid gold; font-weight:bold;}
+  #right > #about > #face {width:100%; height:100%;}
+  #right > #about > #face a {width:100%; height:100%; }
+  #right > #about > #face > a > img {width:100%; height:100%; }
+  #about > p {font-size:1.3em; font-weight:300; line-height:180%; margin:6% 0;}
+  #about > button {padding:8px 11px; letter-spacing:1px; font-size:1.2em; color:#fff; background-color:#000; border: 2px solid #1b1b1b;}
+
+  /*서브메인 오른쪽부분-sns계정*/
+  #follow {width:90%; height:auto; padding:5% 0 0 0; display:flex; flex-flow:row wrap; justify-content:space-evenly; align-content:flex-start;}
+  #follow > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #follow > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:30%; font-weight:bold;}
+  #follow > .smalltitle > hr {width:70%; border: 2px solid gold; font-weight:bold;}
+  #follow > a {cursor:pointer;}
+  #follow > .iconbox {width:8%; height:8%;}
+  #follow > a > img {width:100%; height:100%; opacity:0.3;}
+
+  /*서브메인 오른쪽부분-카테고리*/
+  #category {width:90%; height:auto; padding:5% 0 0 0;}
+  #category > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #category > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:30%; font-weight:bold;}
+  #category > .smalltitle > hr {width:70%; border: 2px solid gold; font-weight:bold;}
+  #category > .table {width:100%; height:auto; }
+  #category > .table > ul {width:100%; height:100%; display:flex; flex-flow:row wrap; box-sizing:border-box; font-size:1.3em; color: #a0a0a0; letter-spacing:2px;} 
+  #category > .table > ul > li {width:80%; font-weight:400; line-height:280%; border-bottom:1px solid #ddd;}
+  #category > .table > ul > li a{color: #a0a0a0;}
+  #category > .table > ul > li:nth-of-type(2n) {width:20%; font-weight:300; letter-spacing:1px; text-align:right; border-bottom:1px solid #ddd;} 
+
+  /*서브메인 오른쪽부분-배너*/
+  #piabanner{width:90%; height:auto; background-color:gold; margin:5% 0 0 0; padding:9% 20%;}
+  #piabanner > h3 {font-size:1.5em; font-weight:300; text-align:center; color:#0c4e4a; line-height:160%; margin:3% 0;}
+  #piabanner > h3 > span {font-weight:900; font-size:2.2em; color:#0c4e4a; line-height:1; }
+  #piabanner > .btn {width:100%; padding:3% 0; text-align:center; letter-spacing:1px; font-size:1.3em; border:2px solid currentColor; color: #0c4e4a; padding:3% 0;}
+  
+  /*서브메인 오른쪽부분-프로필*/
+  #post {width:90%; height:auto; padding:5% 0 0 0; display:flex; flex-flow:row wrap; justify-content:center;}
+  #post > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #post > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:25%;  font-weight:bold;}
+  #post > .smalltitle > hr {width:75%; border: 2px solid gold; font-weight:bold;}
+  #post > .profile {width:50%; height:auto; margin:3% 0 0 0; display:flex;  justify-content:center;}
+  #post > .profile > .profile_img {width:40%; height:60%; overflow:hidden; cursor:pointer; }
+  #post > .profile > .profile_img > img {width:100%; height:100%;}
+
+  #post > .profile > .profile_text {width:60%; height:100%; color:#666; padding-left:6%;}
+  #post > .profile > .profile_text > p {font-size:1.2em; line-height:140%;}
+  #post > .profile > .profile_text > span {font-size:0.9em; font-weight:300;color:#a0a0a0;}
+ 
+  /*서브메인 오른쪽부분-태그들*/
+  #tag {width:90%; height:auto; padding:5% 0 0 0;}
+  #tag > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #tag > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:35%; font-weight:bold;}
+  #tag > .smalltitle > hr {width:65%; border: 2px solid gold; font-weight:bold;}
+  #tag > ul {width:100%; height:208px; display:flex; flex-flow:row wrap; letter-spacing:3px;}
+  #tag > ul > .btn {border:1px solid #ddd; text-align:center; padding:3% 2%; margin:0 4% 4% 0; font-size:1.0em; color:#666; cursor:pointer;}
+  #tag > ul > .btn:hover{color:#fff; background-color:#a0a0a0; border:0; border:1px solid #a0a0a0;}
+
+
+  /*서브메인 오른쪽부분-아카이브*/
+  #archive {width:90%; height:auto; padding:5% 0 0 0;}
+  #archive > .smalltitle {width:100%; height:auto ;margin:0 0 3% 0; display:flex; align-items:center;}
+  #archive > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:25%; ; font-weight:bold;}
+  #archive > .smalltitle > hr {width:75%; border: 2px solid gold; font-weight:bold;}
+  #archive > .table {width:100%; height:auto; }
+  #archive > .table > ul { font-size:1.3em; width:100%; height:auto; display:flex; flex-flow:row wrap; letter-spacing:2px;}
+  #archive > .table > ul > li {width:80%; font-weight:400; color:#a0a0a0; line-height:280%; border-bottom:1px solid #ddd;}
+  #archive > .table > ul > li a {color:#a0a0a0;}
+  #archive > .table > ul > li:nth-of-type(2n) {width:20%; text-align:right; font-weight:300; letter-spacing:1px;}
+
+  /*서브메인 오른쪽부분-편지함*/
+  #letter {width:90%; height:auto; padding: 5% 0 0 0;}
+  #letter > .smalltitle {width:100%; height:auto; margin:0 0 3% 0; display:flex; align-items:center;}
+  #letter > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:25%; font-weight:bold;}
+  #letter > .smalltitle > hr {width:75%; border: 2px solid gold; font-weight:bold;}
+  #letter > #mail {width:100%; height:60px; border:1.5px solid #ddd; display:flex; }
+  #letter > #mail > input {width:85%; height:100%;  font-weight:300; font-size:20px; padding:4%; border:0; color:#a0a0a0; }
+  #letter > #mail > button {width:15%; height:100%; cursor:pointer; border:0;}
+  #letter > #mail > button > img {width:60%; height:60%; border:0; opacity:0.3;}
+
+  /*서브메인 오른쪽부분-인스타그램모음*/
+  #insta{width:90%; height:auto; padding:5% 0 0 0; display:flex; flex-flow:row wrap; }
+  #insta > .smalltitle {width:100%; height:auto; margin:0 0 3% 0; display:flex; align-items:center;}
+  #insta > .smalltitle > p {font-size:1.8em;  color: #1b1b1b; width:30%; font-weight:bold;}
+  #insta > .smalltitle > hr {width:70%; border: 2px solid gold; font-weight:bold;}
+  #insta > .insta_pia {width:200px; height:200px; margin:1%; overflow:hidden; position:relative; }
+  #insta > .insta_pia > img {width:100%; height:100%; }
+}
+
+
+
+
+
+
+

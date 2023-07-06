@@ -1,0 +1,211 @@
+@charset "utf-8";
+ 
+@media(min-width:1100px){
+#wrap {width:100%; height:auto; margin:0 auto;}
+/*슬라이더부분*/
+#slider {width:100%; max-height:3500px;  display:flex; flex-direction:column; justify-content:flex-start; align-items:center;  background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("../img/main/slide5.jpg"); background-size:cover; background-position:center; position:relative;}
+.container {width:90%; height:100vh;  display:flex; flex-flow:column wrap; justify-content:space-around; align-items:center; align-content:center; box-sizing:border-box;}
+.container > h3 {font-size:65px; font-weight:bold; margin:0 0 10px 0; color:#fff; padding:20% 0 0 0;}
+#scroll-bar {width:100px; height:45px;  margin:0 0 0 100px;}
+#scroll-bar > img {width:25px; height:44px; }
+
+#form-container {width:90%; height:165px; display:flex; justify-content:center; margin:-100px 0 0 0; z-index:3;}
+#form-container > form {display:block; width:98%; height:165px; background-color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; box-shadow:4px 4px 4px #ccc; display:absolute; top:150px; left:0; z-index:1; }
+.availity {width:25%; height:87px; margin:3%;}
+.availity > input {width:95%; height:50px; border:1px solid #666}
+.availity > label {font-weight:bold; font-size:20px;}
+
+.availity > .checkbox {width:50%; height:86px; float:left;  }
+.availity > .checkbox > label {font-weight:bold; font-size:20px; }
+.availity > .checkbox > select {width:90%; height:50px;}
+.availity > button {border-radius:10px; background-color:tomato; color:#fff; border:0; width:90%; height:50px; margin:20px 0 0 0; font-size:16px; cursor:pointer;}
+.availity > button:hover {opacity:0.5;}
+
+/* 메인 시작 */
+main {width:100%; height:auto; display:flex; flex-direction:column; align-items:center; justify-content:center; margin:20px 0 0 0}
+
+#main{width:90%; height:auto; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+
+
+#main-start {width:80%; height:auto; box-sizing:border-box; display:flex; flex-flow:row wrap; justify-content:center; margin:40px 0 0 0; }
+#main-start > .text {width:39%; height:100%;  padding:2%; display:flex; flex-direction:column;align-items:flex-start; justify-content:center; }
+#main-start > .text > h3 {font-size:50px; margin:4% 0 0 0; font-family:'Times New Roman', Times, serif; }
+#main-start > .text > p {font-size:16px; margin:3% 0 7% 0; line-height:40px; color:#555; font-family:Verdana, Geneva, Tahoma, sans-serif;}
+#main-start > .text > .btn {width:233px; height:42px; background-color:tomato; border-radius:30px;  border:0; }
+#main-start > .text > .btn > a {color:#fff; padding:0 0 0 20px; cursor:pointer;}
+#main-start > .text > .btn:hover{opacity:0.3;}
+
+#main-start > .photo {width:59%; height:100%; }
+#main-start > .photo > img {width:90%; height:90%; }
+
+
+/* 경영진 소개*/
+#leadership {width:100%;  height:1100px;  display:flex; flex-direction:column; align-items:center; margin:50px 0 0 0;}
+#leadership > h3 {width:70%; font-size:50px; display:flex; justify-content:center; margin:40px 0 40px 0;  font-family:'Times New Roman', Times, serif;}
+#leadership > .row {width:80%; height:auto;  display:flex; justify-content:center; align-content:center; flex-direction:row; flex-wrap:wrap; }
+#leadership > .row > .team {width:29%; height:427px; margin:5px;}
+#leadership > .row > .team > .photo {width:100%; height:100%;  }
+#leadership > .row > .team > .photo img {width:100%; height:100%; border-radius:15px;}
+#leadership > .row > .team > .photo img:hover{cursor:pointer; }
+
+#leadership > .row > .team > .text { color:#fff; position:relative; left:0; bottom:60px; border-radius:15px; background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%); overflow:hidden;}
+
+#leadership > .row > .team > .text > .b {font-size:30px;}
+
+
+
+/*방 소개 부분*/
+
+#room > .room-top {width:80%; height:auto; text-align:center; font-family:Arial, Helvetica, sans-serif; display:flex; justify-content:center;}
+#room > .room-top > .text {width:50%; height:auto; margin:0 0 30px 0;} 
+#room > .room-top > .text > h3 {font-size:70px;font-family:'Times New Roman', Times, serif; }
+#room > .room-top > .text > p {font-size:16px; line-height:30px;} 
+
+#room {width:100%; height:auto; display:flex; flex-flow: column wrap; justify-content:center; align-items:center; }
+#room > .row {width:80%; height:auto; display:flex; justify-content:center; }
+#room > .row > .room-size {width:29%; height:400px; margin:5px; text-align:center; font-family:Arial, Helvetica, sans-serif;}
+
+#room > .row > .room-size > img {width:100%; height:249px; cursor:pointer;}
+#room > .row > .room-size > img:hover {opacity:0.3;}
+#room > .row > .room-size > h3 {font-size:30px; font-family:'Times New Roman', Times, serif;}
+#room > .row > .room-size > p {font-size:18px; color:#666;}
+#room > .row > .room-size > p > a {color:red;}
+
+
+
+
+
+/*사진 모음집*/
+#photos {width:100%; height:1100px; display:flex; justify-content:center; align-content:center; background-color:#eee; padding:2%; margin:3%}
+#photos > .photos-top {width:70%; height:auto; display:flex; flex-direction:column; justify-content:space-around; align-items:center; }
+#photos > .photos-top > .text {width:60%; height:auto;  text-align:center; font-family:Arial, Helvetica, sans-serif; }
+#photos > .photos-top > .text > h3 {font-size:70px; font-family:'Times New Roman', Times, serif;}
+#photos > .photos-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+#photos > .photos-top > .row {width:100%; height:650px; display:flex; flex-flow:column wrap; justify-content:center; align-items:flex-start;} 
+#photos > .photos-top > .row > article {width:33%; height:250px;  margin:5px; }
+#photos > .photos-top > .row > article img {width:100%; height:100%;}
+#photos > .photos-top > .row > .bigbox {width:33%; height:250px; }
+#photos > .photos-top > .row > .bigbox > img {width:100%; height:100%;}
+
+#photos > .photos-top > span {width:150px; height:40px; background-color:#eee; display:flex;}
+#photos > .photos-top > span > a {border:2px solid tomato; color:tomato;width:96%; height:100%; padding:9px 28px; }
+#photos > .photos-top > span > a:hover{background-color:tomato; color:#fff;}
+
+/*음식 메뉴, 가격 ,소개 */
+#menu {width:100%; height:auto; display:flex; flex-direction:column; justify-content:center; align-content:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://themewagon.github.io/redplanet/images/slider-4.jpg"); background-size:cover; background-position:center; padding:20px 0 0 0; }
+
+
+
+#menu > .menu-top {width:100%; height:auto; display:flex; align-items:center; justify-content:center; }
+#menu > .menu-top > .text023 {width:40%; height:200px;  color:#fff; margin:100px 0 30px 0; text-align:center;}
+#menu > .menu-top > .text023 > h4 { font-size:40px;  width:100%; font-family:'Times New Roman', Times, serif; }
+#menu > .menu-top > .text023 > p {font-size:16px;  } 
+
+#food-menu{width:100%; height:auto;  display:flex; flex-direction:column; align-items:center; justify-content:center;  }
+#food-menu > .ul {width:60%; height:auto; }
+#food-menu > .ul > ul {width:95%; height:auto;  }
+#food-menu > .ul > ul > li {width:24%; height:auto; float:left;  margin:0 25px 0 25px; display:flex; justify-content:center; }
+#food-menu > .ul > ul > li a {font-size:17px;  letter-spacing:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#fff;  }
+#food-menu > .ul > ul > li > a .food {width:95%; height:auto; }
+#food-menu > .ul > ul > li a:hover{cursor:pointer; background-color:red; ;}
+
+#food-menu-bottom {width:100%; height:auto; margin:0 0 100px 0; display:flex; justify-content:center;}
+#food-menu-bottom > .row {width:80%; height:auto; display:flex; justify-content:center;}
+#food-menu-bottom > .row > .row-half {width:100%; height:auto; margin:5% 0 0 0; }
+#food-menu-bottom > .row > .row-half > .row-bottom {width:540px; height:143px; margin:0 0 5% 0;}
+#food-menu-bottom > .row > .row-half > .row-bottom > span{color:red; font-size:28px; }
+#food-menu-bottom > .row > .row-half > .row-bottom > h3 {font-size:33px; color:#fff;}
+#food-menu-bottom > .row > .row-half > .row-bottom > p {font-size:16px; color:#fff; line-height:30px; }
+
+/* 후기 */
+#say {width:100%; height:auto;  display:flex; flex-direction:column; align-items:center; margin:80px 0 0 0;}
+.say-top {width:50%; height:80px;  margin:0 0 40px 0;}
+.say-top > h3 {font-size:70px; text-align:center; font-family:'Times New Roman', Times, serif;}
+
+/*후기 표*/
+#say > .row-top {width:80%; height:401px;  display:flex; flex-direction:row; justify-content:center; font-family:Arial, Helvetica, sans-serif; }
+#say > .row-top > .row {width:90%; height:329px;  display:flex; justify-content:center;} 
+
+
+
+/*후기 일반 박스*/
+#say > .row-top > .row > .row-active {width:28%; height:300px;  display:flex; flex-direction:column; align-items:center; justify-content:space-evenly; margin:2%; }
+#say > .row-top > .row > .row-active:hover {box-shadow:4px 4px 4px 4px #ccc;}
+#say > .row-top > .row > .row-active > .face {width:100%; height:auto; display:flex; justify-content:center;}
+#say > .row-top > .row > .row-active > .face > img {width:70px; height:70px; border-radius:50%;  padding:5px 0 0 0;}
+#say > .row-top > .row > .row-active >  blockquote > p {width:322px; height:auto; font-family:"Roboto", arial, sans-serif; padding:5%; line-height:23px;}
+
+/* 후기 표 중에 큰 박스*/
+#say > .row-top > .row > .row-active > .bigbox {width:100%; height:329px;  display:flex; flex-direction:column; align-items:center; justify-content:space-evenly; }
+#say > .row-top > .row > .row-active > .bigbox:hover{cursor:pointer; box-shadow:4px 4px 4px 4px#ccc;}
+#say > .row-top > .row > .row-active > .bigbox > .face {width:100%; height:70px; display:flex; justify-content:center; }
+#say > .row-top > .row > .row-active > .bigbox > .face > img {width:70px; height:70px; border-radius:50%;padding:5px 0 0 0;}
+#say > .row-top > .row > .row-active > .bigbox >  blockquote > p {width:322px; height:auto; font-family:"Roboto", arial, sans-serif; padding:5%; line-height:23px;}
+
+
+/* 이벤트 */
+#event {width:100%; height:auto; display:flex; justify-content:center; margin:70px 0 0 0; background-color:#eee; padding:3%;}
+#event > .container {width:1140px; height:auto;}
+#event > .container > .event-top {width:1140px; height:252px;  display:flex; justify-content:center; }
+#event > .container > .event-top > .text {width:664px; height:auto; text-align:center; font-family:Arial, Helvetica, sans-serif; padding:40px 0 10px 0;}
+
+#event > .container > .event-top > .text > h3 {font-size:70px; font-family:'Times New Roman', Times, serif;}
+#event > .container > .event-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+
+#event > .container > .row {width:1140px; height:558px; display:flex; }
+#event > .container > .row > .event-row {width:30%; height:558px; margin:1%;  }
+#event > .container > .row > .event-row > .photo {width:349px; height:249px; background-color:lightgrey; overflow:hidden;}
+#event > .container > .row > .event-row > .photo img {width:100%; height:100%; transform:scale(1.0); }
+#event > .container > .row > .event-row > .photo img:hover{cursor:pointer;  transform:scale(1.1); transition:0.3s ease-in-out;}
+
+#event > .container > .row > .event-row > .text {width:349px; height:268px;  box-shadow:0 4px 4px 4px #ccc; display:flex; flex-direction:column; justify-content:center; font-family:Arial, Helvetica, sans-serif; background-color:#fff; padding:5%}
+
+#event > .container > .row > .event-row > .text > span {font-size:15px; letter-spacing:5px; margin:5px 0 0 0;}
+#event > .container > .row > .event-row > .text > h3{font-size:20px; margin:20px 0 0 0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#event > .container > .row > .event-row > .text > p{line-height:30px; font-size:16px;padding:13px 0 0 0;}
+
+/*신청하기*/
+#contact {width:100%; height:auto; display:flex; flex-direction:column; align-items:center; margin:50px 0 0 0;}
+#contact > .contact-top {width:1140px; height:182px;  display:flex; justify-content:center; font-family:Arial, Helvetica, sans-serif; text-align:center;}
+#contact > .contact-top > .text {width:664px; height:182px; }
+#contact > .contact-top > .text > h3 {font-size:70px; font-family:'Times New Roman', Times, serif;}
+#contact > .contact-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+#contact > .row {width:1140px; height:698px;  display:flex; }
+
+
+#contact > .row > .form-row {width:664px; height:698px; }
+
+#contact > .row > .form-row > form {width:634px; height:650px; border:1px solid #ccc; display:flex; flex-direction:column; align-items:center; justify-content:center;}
+#contact > .row > .form-row > form > .form-top {width:566px; height:102px; display:flex; flex-flow:row wrap; justify-content:flex-start; }
+#contact > .row > .form-row > form > .form-top > .form-middle {width:283px; height:86px;  }
+#contact > .row > .form-row > form > .form-top > input {width:95%; height:50px; border-radius:10px; border:1px solid #666;}
+
+#contact > .row > .form-row > form > .form-top > .form-middle > input {width:253px; height:50px; border-radius:10px;  border:1px solid #666;}
+
+#contact > .row > .form-row > form > .form-bottom {width:566px; height:280px;}
+#contact > .row > .form-row > form > .form-bottom > textarea {width:536px; height:208px; margin:4% 0 0 0; border-radius:10px; border:1px solid #666;}
+
+#contact > .row > .form-row > form > .submitting {width:566px; height:62px; }
+#contact > .row > .form-row > form > .submitting  > input {width:173px; height:46px; border-radius:20px; background-color:tomato; color:#fff; border:0; font-weight:bold;margin:10px 0 0 0;}
+#contact > .row > .form-row > form > .submitting:hover{opacity:0.4;}
+
+#contact > .row > .text-row {width:475px; height:650px; display:flex; flex-direction:column; justify-content:space-evenly;}
+#contact > .row > .text-row > p {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; width:100%; height:180px; }
+#contact > .row > .text-row > p > .t {font-size:15px; color:#666; letter-spacing:7px; margin:0 0 10px 0; }
+#contact > .row > .text-row > p > .m {font-size:30px; margin:10px 0 0 0; }
+
+
+
+/*예약 적는 칸*/
+#reserve {width:100%; height:284px; display:flex; justify-content:center; align-items:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://a.cdn-hotels.com/gdcs/production127/d256/7199707a-c1e3-4993-a4e7-e3f10af6ab63.jpg"); background-size:cover; background-position:bottom; }
+#reserve > .container {width:75%; height:60px;  }
+#reserve > .container > .text {width:60%; height:60px;}
+#reserve > .container > .text  > h3 {font-size:2rem; font-family:"Playfair Display", times, serif; padding:3% 0 0 0; color:#fff;}
+#reserve > .container > .button {width:40%; height:60px; }
+#reserve > .container > .button > p {width:196px; height:60px; border:2px solid #fff;   float:right; font-size:1rem; text-align:center; padding:3% 0 0 0; border-radius:25px;}
+#reserve > .container > .button > p > a {color:#fff; font-size:1rem; font-weight:bold;}
+#reserve > .container > .button > p:hover{background-color:red; border:2px solid red;}
+ }

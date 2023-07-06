@@ -1,0 +1,215 @@
+@charset "utf-8"; 
+
+@media(min-width:600px) and (max-width:1099px){
+ #wrap {width:100%; height:auto; }
+/*슬라이더부분*/
+#slider {width:100%; max-height:3700px;  display:flex; flex-flow:column wrap; justify-content:center; align-items:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("../img/main/slide5.jpg"); background-size:cover; background-position:center; position:relative;}
+.container {width:90%; height:100vh; display:flex; flex-flow:column wrap; align-items:center; justify-content:space-evenly; box-sizing:border-box;}
+.container > h3 {font-size:60px; font-weight:bold; margin:0 0 10px 0; color:#fff; padding:30% 0 0 0;}
+#scroll-bar {width:10%; height:45px;  margin:50px 0 0 50px;}
+#scroll-bar > img {width:25px; height:44px; }
+
+#form-container {width:95%; height:165px; margin:-180px 0 0 0; z-index:3;  }
+#form-container > form {display:block; width:98%; height:165px; background-color:#fff; border-radius:10px; display:flex; align-items:center; justify-content:center; box-shadow:4px 4px 4px #ccc; }
+.availity {width:23%; height:87px; }
+.availity > input {width:80%; height:50px; padding:0 0 0 2%; border-radius:10px; border:1px solid #666;}
+.availity > label {font-weight:bold; font-size:20px;}
+
+.availity > .checkbox {width:50%; height:86px; float:left;  }
+.availity > .checkbox > label {font-weight:bold; font-size:20px;}
+.availity > .checkbox > select {width:80%; height:50px; border-radius:10px; }
+.availity > button {border-radius:10px; background-color:tomato; color:#fff; border:0; width:100%; height:50px; margin:25px 0 0 0; font-size:16px; cursor:pointer;  padding:0 0 0 2%;}
+.availity > button:hover {opacity:0.5;}
+
+/* 메인 시작 */
+
+
+main {width:100%; height:auto; display:flex; flex-direction:column; align-items:center; justify-content:center;}
+
+#main{width:100%; height:auto; display:flex; flex-direction:column; align-items:center; justify-content:center; margin:100px 0 0 0;}
+#main-start {width:80%; height:auto; box-sizing:border-box; display:flex; flex-direction:column; align-items:center;  margin:80px 0 0 0;;}
+#main-start > .text {width:80%; height:472px;  padding:2%; }
+#main-start > .text > h3 {font-size:60px; margin:0 0 7% 0; font-family:'Times New Roman', Times, serif;}
+#main-start > .text > p {font-size:20px; margin:3% 0 7% 0; line-height:40px;}
+#main-start > .text > .btn {width:233px; height:42px; background-color:tomato; border-radius:30px; padding:0 0 0 20px; border:0; }
+#main-start > .text > .btn > a {color:#fff; padding:0 0 0 20px; cursor:pointer;}
+#main-start > .text > .btn:hover{opacity:0.3;}
+
+#main-start > .photo {width:80%; height:463px; }
+#main-start > .photo > img {width:100%; height:403px; padding:0 0 30px 0;}
+
+
+/* 경영진 소개*/
+#leadership {width:100%; height:1509px;  display:flex; flex-direction:column; align-items:center; }
+#leadership > h3 {width:70%; height:72px; font-size:50px; padding:3% 0 0 0; display:flex; justify-content:center; font-family:'Times New Roman', Times, serif;}
+#leadership > .row {width:90%; height:1354px;  display:flex; justify-content:center; align-content:center; flex-direction:row; flex-wrap:wrap; margin:20px 0 0 0; }
+#leadership > .row > .team {width:40%; height:427px; margin:5px;}
+#leadership > .row > .team > .photo {width:100%; height:100%;  }
+#leadership > .row > .team > .photo img {width:100%; height:100%; border-radius:15px;}
+#leadership > .row > .team > .photo img:hover{cursor:pointer; }
+
+#leadership > .row > .team > .text { color:#fff; position:relative; left:0; bottom:60px; border-radius:15px; background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%); }
+
+#leadership > .row > .team > .text > .b {font-size:30px;}
+
+
+
+/*방 소개 부분*/
+
+#room > .room-top {width:95%; height:auto; text-align:center; font-family:Arial, Helvetica, sans-serif; display:flex; justify-content:center; }
+#room > .room-top > .text {width:60%; height:192px; padding:3% 0 0 0;} 
+#room > .room-top > .text > h3 {font-size:45px;font-family:'Times New Roman', Times, serif; }
+#room > .room-top > .text > p {font-size:16px; line-height:30px; color:#666;} 
+
+
+#room {width:100%; height:auto; display:flex; flex-wrap:wrap; justify-content:center; align-content:center; }
+#room > .row {width:80%; height:430px; display:flex; }
+#room > .row > .room-size {width:33%; height:372px; margin:5px; text-align:center; font-family:Arial, Helvetica, sans-serif;}
+
+#room > .row > .room-size > img {width:100%; height:249px; cursor:pointer;}
+#room > .row > .room-size > img:hover {opacity:0.3;}
+#room > .row > .room-size > h3 {font-size:25px; margin:10px  0 0 0;font-family:'Times New Roman', Times, serif;}
+#room > .row > .room-size > p {font-size:18px; margin:15px 0 0 0;}
+#room > .row > .room-size > p > a {color:red;}
+
+
+
+
+/*사진 모음집*/
+#photos {width:100%; height:auto; display:flex; justify-content:center; align-content:center; background-color:#eee; }
+#photos > .photos-top {width:98%; height:1138px; display:flex; flex-direction:column; justify-content:space-around; align-items:center; }
+#photos > .photos-top > .text {width:60%; height:162px;  text-align:center; font-family:Arial, Helvetica, sans-serif; padding:4% 0 0 0;}
+#photos > .photos-top > .text > h3 {font-size:50px; font-family:'Times New Roman', Times, serif;}
+#photos > .photos-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+#photos > .photos-top > .row {width:95%; height:775px; display:flex; flex-flow:row wrap; justify-content:center; align-content:center;}
+#photos > .photos-top > .row > article {width:23%; height:359px;  margin:5px; }
+#photos > .photos-top > .row > article img {width:100%; height:100%;}
+#photos > .photos-top > .row > .bigbox {width:40%; height:358px; }
+#photos > .photos-top > .row > .bigbox > img {width:100%; height:100%;}
+
+#photos > .photos-top > span > a {border:2px solid tomato; color:tomato; padding:9px 28px;}
+#photos > .photos-top > span > a:hover{background-color:tomato; color:#fff;}
+
+/*음식 메뉴, 가격 ,소개 */
+#menu {width:100%; height:1523px; display:flex; flex-direction:column; justify-content:center; align-items:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://themewagon.github.io/redplanet/images/slider-4.jpg"); background-size:cover; background-position:center; }
+
+
+
+#menu > .menu-top {width:90%; height:300px; display:flex; align-items:center; justify-content:center; }
+#menu > .menu-top > .text023 {width:80%; height:250px; text-align:center; color:#fff; }
+#menu > .menu-top > .text023 > h4 {font-size:45px; }
+#menu > .menu-top > .text023 > p {font-size:16px; line-height:30px;} 
+
+#food-menu{width:95%; height:auto;  display:flex; flex-direction:column; align-content:center;}
+#food-menu > .ul {width:95%; height:auto; display:flex; justify-content:center;}
+#food-menu > .ul > ul {width:90%; height:auto; display:flex; justify-content:center; }
+#food-menu > .ul > ul > li {width:23%; height:auto; float:left;   display:flex; justify-content:center; margin:3%; }
+#food-menu > .ul > ul > li a {font-size:17px;  letter-spacing:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; color:#fff;  }
+#food-menu > .ul > ul > li > .food {width:60%; height:auto; margin:0 9px 0 0; }
+#food-menu > .ul > ul > li a:hover{cursor:pointer; background-color:red;}
+
+#food-menu-bottom {width:95%; height:901px;  display:flex; flex-flow:wrap; align-items:center; justify-content:center; }
+#food-menu-bottom > .row {width:90%; height:656px; display:flex; justify-content:center; }
+#food-menu-bottom > .row > .row-half {width:42%; height:656px; margin:5% 0 0 0;  }
+#food-menu-bottom > .row > .row-half > .row-bottom {width:90%; height:auto; margin:0 0 8% 0; }
+#food-menu-bottom > .row > .row-half > .row-bottom > span{color:red; font-size:28px; }
+#food-menu-bottom > .row > .row-half > .row-bottom > h3 {font-size:25px; color:#fff; font-family:'Times New Roman', Times, serif;}
+#food-menu-bottom > .row > .row-half > .row-bottom > p {font-size:16px; color:#fff; line-height:30px; }
+
+/* 후기 */
+#say {width:100%; height:auto;  display:flex; flex-direction:column; align-items:center;   }
+.say-top {width:90%; height:80px; margin:100px 0 60px 0;}
+.say-top > h3 {font-size:50px; text-align:center; font-family:'Times New Roman', Times, serif;}
+
+/*후기 표*/
+#say > .row-top {width:90%; height:auto;  display:flex; flex-flow:row wrap; justify-content:center; align-items:center; font-family:Arial, Helvetica, sans-serif;  }
+#say > .row-top > .row {width:80%; height:auto;  display:flex; flex-flow:wrap; justify-content:center;  margin:0 0 40px 0;}
+
+
+/*후기 일반 박스*/
+#say > .row-top > .row > .row-active {width:45%; height:auto;  display:flex; flex-direction:column; align-items:center; justify-content:space-evenly; margin:2%; }
+#say > .row-top > .row > .row-active:hover {box-shadow:4px 4px 4px 4px #ccc;}
+#say > .row-top > .row > .row-active > .face {width:100%; height:70px; display:flex; justify-content:center; }
+#say > .row-top > .row > .row-active > .face > img {width:70px; height:70px; border-radius:50%; }
+#say > .row-top > .row > .row-active >  blockquote > p {width:100%; height:auto; font-family:"Roboto", arial, sans-serif; padding:5%; color:#666;}
+
+
+/* 후기 표 중에 큰 박스*/
+#say > .row-top > .row > .row-active > .bigbox {width:100%; height:auto;  display:flex; flex-direction:column; align-items:center; justify-content:space-evenly; }
+#say > .row-top > .row > .row-active > .bigbox:hover{cursor:pointer;}
+#say > .row-top > .row > .row-active > .bigbox > .face {width:100%; height:70px;  display:flex; justify-content:center; }
+#say > .row-top > .row > .row-active > .bigbox > .face > img {width:70px; height:100%; border-radius:50%; margin:0 90px;}
+#say > .row-top > .row > .row-active > .bigbox >  blockquote > p {width:100%; height:auto; font-family:"Roboto", arial, sans-serif; padding:5%; color:#666;}
+
+
+
+/* 이벤트 */
+
+
+#event {width:100%; height:1420px; display:flex; justify-content:center;background-color:#eee; }
+#event > .container {width:90%; height:1500px;  margin:30px 0 0 0;}
+#event > .container > .event-top {width:96%; height:182px;  display:flex; justify-content:center; }
+#event > .container > .event-top > .text {width:63%; height:182px; text-align:center; font-family:Arial, Helvetica, sans-serif; padding:50px 0 0 0;}
+#event > .container > .row > .event-row > .text > span {font-size:13px; letter-spacing:5px; margin:10px 0 0 0;}
+#event > .container > .event-top > .text > h3 {font-size:45px; font-family:'Times New Roman', Times, serif;}
+#event > .container > .event-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+
+#event > .container > .row {width:98%; height:1200px; display:flex; flex-flow:row wrap; justify-content:center; padding:40px 0 0 0;}
+#event > .container > .row > .event-row {width:45%; height:auto; margin:1%;  }
+#event > .container > .row > .event-row > .photo {width:100%; height:249px;  overflow:hidden;}
+#event > .container > .row > .event-row > .photo img {width:100%; height:100%; transform:scale(1.0); }
+#event > .container > .row > .event-row > .photo img:hover{cursor:pointer;  transform:scale(1.1); transition:0.3s ease-in-out;}
+
+#event > .container > .row > .event-row > .text {width:100%; height:308px;  box-shadow:0 4px 4px 4px #ccc; display:flex; flex-direction:column; justify-content:center; font-family:Arial, Helvetica, sans-serif; padding:3%;}
+
+#event > .container > .row > .event-row > .text > span {font-size:13px; letter-spacing:5px; margin:10px 0 0 0;}
+#event > .container > .row > .event-row > .text > h3{font-size:20px; margin:10px 0 0 0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#event > .container > .row > .event-row > .text > p{line-height:30px; font-size:15px; margin:10px 0 0 0;}
+
+/*신청하기*/
+#contact {width:100%; height:auto; display:flex; flex-direction:column; align-items:center;}
+#contact > .contact-top {width:80%; height:200px;  display:flex; justify-content:center; font-family:Arial, Helvetica, sans-serif; text-align:center; margin:100px 0 30px 0;}
+#contact > .contact-top > .text {width:90%; height:182px; }
+#contact > .contact-top > .text > h3 {font-size:60px; font-family:'Times New Roman'}
+#contact > .contact-top > .text > p {font-size:16px; line-height:30px; color:#666;}
+
+#contact > .row {width:90%; height:808px;  display:flex; }
+
+
+#contact > .row > .form-row {width:59%; height:698px;  }
+
+#contact > .row > .form-row > form {width:100%; height:680px; border:1px solid #ccc; display:flex; flex-direction:column; align-items:center; justify-content:center;  margin:0 0 0 3%;}
+#contact > .row > .form-row > form > .form-top {width:95%; height:132px;  display:flex; flex-flow:column wrap; justify-content:center;}
+#contact > .row > .form-row > form > .form-top > .form-middle {width:50%; height:89px;  display:flex; flex-flow:column wrap;}
+#contact > .row > .form-row > form > .form-top > input {width:90%; height:50px; border-radius:10px; border:1px solid #666;}
+
+#contact > .row > .form-row > form > .form-top > .form-middle > input {width:80%; height:50px; border-radius:10px; border:1px solid #666;}
+
+#contact > .row > .form-row > form > .form-bottom {width:95%; height:280px; padding:4% 0 0 0;}
+#contact > .row > .form-row > form > .form-bottom > textarea {width:90%; height:208px; margin:4% 0 0 0; border-radius:10px;}
+
+#contact > .row > .form-row > form > .submitting {width:50%; height:62px; padding:1% 0 0 0;}
+#contact > .row > .form-row > form > .submitting  > input {width:173px; height:46px; border-radius:20px; background-color:tomato; color:#fff; border:0; font-weight:bold;}
+#contact > .row > .form-row > form > .submitting:hover{opacity:0.4;}
+
+#contact > .row > .text-row {width:29%; height:680px; display:flex; flex-direction:column; margin:0 0 0 5%; }
+#contact > .row > .text-row > p {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;display:flex; flex-direction:column; width:100%; height:auto; padding:0 0 0 8%; }
+#contact > .row > .text-row > p > .t {font-size:13px; color:#666; letter-spacing:7px; margin:0 0 20px 0;}
+#contact > .row > .text-row > p > .m {font-size:19px; margin:0 0 40px 0; }
+
+
+
+/*예약 적는 칸*/
+#reserve {width:100%; height:284px; display:flex; justify-content:center; align-items:center; background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("https://a.cdn-hotels.com/gdcs/production127/d256/7199707a-c1e3-4993-a4e7-e3f10af6ab63.jpg"); background-size:cover; background-position:bottom; }
+#reserve > .container {width:80%; height:60px; }
+#reserve > .container > .text {width:50%; height:46px;}
+#reserve > .container > .text  > h3 {font-size:2rem; font-family:'Times New Roman', Times, serif; padding:3% 0 0 0; color:#fff;}
+#reserve > .container > .button {width:30%; height:60px;}
+#reserve > .container > .button > p {width:196px; height:60px; border:2px solid #fff;   float:right; font-size:1rem; text-align:center; padding:5% 0 0 0; border-radius:25px;}
+#reserve > .container > .button > p > a {color:#fff; font-size:1rem; font-weight:bold;}
+#reserve > .container > .button > p:hover{background-color:red; border:2px solid red;}
+
+}
+   
